@@ -17,3 +17,38 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+
+class Vehicle:
+    """Vehicle IS BASE CLASS"""
+    pass
+
+
+class FlightVehicle(Vehicle):
+    """docstring for FlightVehicle"""
+    pass
+
+
+class Starship(FlightVehicle):
+    """docstring for Starship"""
+    pass
+
+
+class Airplane(FlightVehicle):
+    """docstring for Airplane"""
+    pass
+
+
+class GroundVehicle(Vehicle):
+    """docstring for GroundVehicle"""
+    pass
+
+
+class Car(GroundVehicle):
+    """docstring for Car"""
+    pass
+
+
+class Motorcycle(GroundVehicle):
+    """docstring for Motorcycle"""
+    pass
